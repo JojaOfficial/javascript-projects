@@ -1,0 +1,48 @@
+body {
+    background: #4d3f75;
+}
+
+#timedate {
+    color: #ffffff;
+    font-size: 130%;
+    font-family: Orbitron;
+    letter-spacing: 3%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#heading {
+    position: relative;
+    top: 8px;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 5em;
+}
+
+#todo_input {
+    width: 60%;
+    left: 20%;
+
+}
+
+#checkmark_row {
+    width: 65px;
+}
+
+#note_row {
+
+}
+
+#remove_row {
+    width: 92px;
+}
+
+
+#note_list {
+    margin: auto;
+    width: 80%;
+    table-layout:fixed;
+    word-wrap: break-word;
+}

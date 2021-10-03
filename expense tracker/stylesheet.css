@@ -1,0 +1,56 @@
+body {
+    background: #4d3f75;
+}
+
+#timedate {
+    color: #ffffff;
+    font-size: 130%;
+    font-family: Orbitron;
+    letter-spacing: 3%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#expense_list {
+    margin: auto;
+    width: 80%;
+    table-layout:fixed;
+    word-wrap: break-word;
+}
+
+#remove_row {
+    width: 85px;
+}
+
+#detail_value {
+    width: 500px;
+}
+
+#details_row {
+    word-wrap: break-word;
+}
+
+.input-group-text {
+    margin:  auto;
+}
+
+#button1 {
+    right: 50px;
+}
+
+[class*="con"] {
+    /*padding: 1rem;
+    background-color: #9e33e5;
+    border; 2px solid #fff;
+    color: #fff;*/
+    text-align: center;
+}
+
+/*[class*="col"] {
+    padding: 1rem;
+    background-color: #33b5e5;
+    border; 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}*/
