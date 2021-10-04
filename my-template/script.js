@@ -1,7 +1,7 @@
 function time_and_date() {
 	const d = new Date();
 	let date;
-	date = d.getDate()+"."+d.getMonth()+"."+d.getFullYear()+" | ";
+	date = d.getDate()+"."+d.getMonth()+"."+d.getFullYear();
 	if (String(d.getHours()).length ==2){
 		hours = d.getHours()
 	} else {
@@ -18,6 +18,8 @@ function time_and_date() {
 		seconds = "0"+d.getSeconds()
 	}
 	time = hours+":"+minutes+":"+seconds;
-	document.getElementById("timedate").innerHTML = date+time;
+	
+	document.getElementById("timedate").innerHTML = date+"<br>"+time;
 	setTimeout(time_and_date,1000);
+	
 }
