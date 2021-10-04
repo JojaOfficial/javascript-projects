@@ -23,7 +23,7 @@ body {
 .header {
     height: 50px;
     background: var(--header-bg-color);
-	position: fixed;
+	position: relative;
 	right: 0px;
 	top: 0px;
 	left: 0px;
@@ -56,9 +56,8 @@ body {
 }
 
 .header_box_container {
-    width:100% ;
+    width: calc(100% - 110px);
     left:110px;
-    right:110px;
     height:50px;
     /* background: #542d4f; */
     position: absolute;

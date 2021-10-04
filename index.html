@@ -10,14 +10,24 @@
     <title>Put title here</title>
   </head>
   <body onload="time_and_date()">
-    <h1 id="timedate"></h1>
-    <br>
+	<div class="header">
+      <div onClick="toggle_timedate()" class="header_timedate">
+        <h1 id="timedate"></h1>
+      </div>
+      <div class="header_box_container">
+        <a href="../index.html">
+          <div class="header_box" style="left:0%">HOME</div>
+        </a>
+      </div>
+    </div>
+	
+	<div>
     <a href="bootstrap/index.html">bootstrap</a><br>
     <a href="checkliste/index.html">checkliste</a><br>
     <a href="expense tracker/index.html">expense tracker</a><br>
     <a href="my-template/index.html">my-template</a><br>
     <a href="tree-fractal/index.html">tree fractal</a>
-
+	</div>
     <script src="script.js"></script>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
