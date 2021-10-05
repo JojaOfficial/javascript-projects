@@ -23,3 +23,23 @@ function time_and_date() {
 	setTimeout(time_and_date,1000);
 	
 }
+
+function show_dropdown() {
+	const text = `
+		FINISHED PROJECTS<br>
+		<a id="dropdown_link" href="bootstrap/index.html">bootstrap</a><br>
+		<a id="dropdown_link" href="checkliste/index.html">checkliste</a><br>
+		<a id="dropdown_link" href="expense tracker/index.html">expense tracker</a><br>
+		<a id="dropdown_link" href="my-template/index.html">my-template</a><br>
+		<a id="dropdown_link" href="tree-fractal/index.html">tree fractal</a>
+	`;
+	document.getElementById("dropdown_start").innerHTML = text;
+}
+
+function hide_dropdown() {
+	console.log("test");
+	const text = `
+		FINISHED PROJECTS
+	`;
+	document.getElementById("dropdown_start").innerHTML = text;
+}

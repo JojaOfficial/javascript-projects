@@ -43,13 +43,14 @@ body {
 }
 
 .header_box{
-    width: min-content;
+    width: max-content;
     top:8px;
     height:min-content;
     padding: 3px 5px 5px 5px;
     color: var(--text-color);
     align-content: center;
     position: absolute;
+    background: var(--header-bg-color);
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     /* text-shadow: 1px 1px 4px #000000; */
@@ -64,5 +65,16 @@ body {
 }
 
 .header_box:hover {
+    color: #be78df;
+}
+
+#dropdown_link {
+    color:var(--text-color);
+    overflow-wrap: break-word;
+    text-decoration: none;
+    /* padding:5px 5px 5px 0px; */
+}
+
+#dropdown_link:hover {
     color: #be78df;
 }
